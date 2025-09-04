@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EXOTICA (Clase 34 ).md",
+                "file": "34- EXOTICA (Clase 34 ).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "EXOTICA (Clase 34 )"
+              "title": "34- EXOTICA (Clase 34 )"
             }
           }
         ]
@@ -171,32 +171,32 @@
   },
   "active": "400d94da332cc457",
   "lastOpenFiles": [
-    "Arrays (Clase  33).md",
-    "EXOTICA (Clase 34 ).md",
-    "Strings and numbers (Clase 32).md",
-    "Control de flujo (Clase 31).md",
-    "Troubleshooting (Clase 30).md",
-    "Mi proyecto de linux (Clase 24, 25, 26, 27, 28, 29).md",
-    "Mi primer script (Clase 23).md",
-    "Compilando programas (Clase 23).md",
-    "Printing (Clase 22).md",
-    "Formatenado las salidas (Clase 21).md",
-    "Procesamiento de texto (Clase 20).md",
-    "Untitled",
-    "Expresiones Regulares (Clase 19).md",
-    "Archivando y backup (Clase 18).md",
-    "Busqueda de archivos (Clase 17).md",
-    "Redes (Clase 16).md",
-    "Storage Media (Clase 15).md",
-    "Administracion de paquetes (Clase 14).md",
-    "Customizando el prompt (Clase 13).md",
-    "Introduccion a VI (Clase 12).md",
-    "Configurar el enviroment (Clase 11).md",
-    "Procesos (Clase 10).md",
-    "Permisos (Clase 9).md",
-    "Trucos avanzados de teclado (Clase 8).md",
-    "El mundo de la shell (Clase 7).md",
-    "Redireccionamiento (Clase 6).md",
-    "Trabajando con comandos (Clase 5).md"
+    "33- Arrays (Clase  33).md",
+    "32- Strings and numbers (Clase 32).md",
+    "31- Control de flujo (Clase 31).md",
+    "30- Troubleshooting (Clase 30).md",
+    "26-29 Mi proyecto de linux (Clase 24, 25, 26, 27, 28, 29).md",
+    "25- Mi primer script (Clase 23).md",
+    "23- Compilando programas (Clase 23).md",
+    "22- Printing (Clase 22).md",
+    "21- Formatenado las salidas (Clase 21).md",
+    "20- Procesamiento de texto (Clase 20).md",
+    "19- Expresiones Regulares (Clase 19).md",
+    "18- Archivando y backup (Clase 18).md",
+    "17- Busqueda de archivos (Clase 17).md",
+    "16- Redes (Clase 16).md",
+    "15- Storage Media (Clase 15).md",
+    "14- Administracion de paquetes (Clase 14).md",
+    "13- Customizando el prompt (Clase 13).md",
+    "12- Introduccion a VI (Clase 12).md",
+    "11- Configurar el enviroment (Clase 11).md",
+    "10- Procesos (Clase 10).md",
+    "9- Permisos (Clase 9).md",
+    "8- Trucos avanzados de teclado (Clase 8).md",
+    "7- El mundo de la shell (Clase 7).md",
+    "6- Redireccionamiento (Clase 6).md",
+    "5- Trabajando con comandos (Clase 5).md",
+    "4- Manipulacion de ficheros y directorios (Clase 4).md",
+    "Untitled"
   ]
 }
