@@ -1,0 +1,202 @@
+{
+  "main": {
+    "id": "5cc53592fac3091d",
+    "type": "split",
+    "children": [
+      {
+        "id": "3815e827fe75302d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "400d94da332cc457",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "EXOTICA (Clase 34 ).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "EXOTICA (Clase 34 )"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "eda43ca2e8d4962e",
+    "type": "split",
+    "children": [
+      {
+        "id": "e0c92aabf42f0329",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "79b934da414b1057",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byModifiedTimeReverse",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "f285da001b594985",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "9945407580639ba6",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "270a709abe491dea",
+    "type": "split",
+    "children": [
+      {
+        "id": "cf19571bfe865ac6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "42ec07045836dd70",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Welcome.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Welcome"
+            }
+          },
+          {
+            "id": "1d72b72b8be67bdb",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Welcome.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Welcome"
+            }
+          },
+          {
+            "id": "ce77de5caff0f737",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "89322484cf87c9bf",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Welcome.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Welcome"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "400d94da332cc457",
+  "lastOpenFiles": [
+    "Arrays (Clase  33).md",
+    "EXOTICA (Clase 34 ).md",
+    "Strings and numbers (Clase 32).md",
+    "Control de flujo (Clase 31).md",
+    "Troubleshooting (Clase 30).md",
+    "Mi proyecto de linux (Clase 24, 25, 26, 27, 28, 29).md",
+    "Mi primer script (Clase 23).md",
+    "Compilando programas (Clase 23).md",
+    "Printing (Clase 22).md",
+    "Formatenado las salidas (Clase 21).md",
+    "Procesamiento de texto (Clase 20).md",
+    "Untitled",
+    "Expresiones Regulares (Clase 19).md",
+    "Archivando y backup (Clase 18).md",
+    "Busqueda de archivos (Clase 17).md",
+    "Redes (Clase 16).md",
+    "Storage Media (Clase 15).md",
+    "Administracion de paquetes (Clase 14).md",
+    "Customizando el prompt (Clase 13).md",
+    "Introduccion a VI (Clase 12).md",
+    "Configurar el enviroment (Clase 11).md",
+    "Procesos (Clase 10).md",
+    "Permisos (Clase 9).md",
+    "Trucos avanzados de teclado (Clase 8).md",
+    "El mundo de la shell (Clase 7).md",
+    "Redireccionamiento (Clase 6).md",
+    "Trabajando con comandos (Clase 5).md"
+  ]
+}
