@@ -44,20 +44,89 @@ Lo que usamos como "Linux" en realidad son **distribuciones** (ej. Ubuntu, Debia
 
 - **Personalización** → puedes adaptar todo (distinto a Windows/macOS que son cerrados).
 
+## Que es la shell? 
+
+La **shell** es un **intérprete de comandos**: un programa que actúa como intermediario entre el usuario y el sistema operativo.
+
+Cuando escribes un comando en la terminal (por ejemplo, `ls` para listar archivos), la **shell** se encarga de:
+
+1. **Leer** lo que escribiste.
+2. **Interpretarlo** (entender qué comando es y con qué parámetros).
+3. **Ejecutarlo** comunicándose con el kernel del sistema operativo.
+4. **Mostrarte el resultado** en pantalla.
 # Emuladores de Terminal 🕹️
 
+Existen diferentes tipos de **shells** en sistemas tipo UNIX/Linux, algunos ejemplos son:
 
+- **sh** (Bourne Shell, la original).
+- **bash** (Bourne Again Shell, la más común en Linux).
+- **zsh** (Z Shell, muy usada por su personalización).
+- **fish** (Friendly Interactive Shell, más interactiva y moderna).
 
-# Haciendo tu primer Keystrokes
+#### **1. sh (Bourne Shell)**
 
- dsafdsa
+- **La original**, creada en los años 70 en UNIX.
+- Muy básica: soporta scripts y ejecución de comandos, pero sin características modernas.
+- Se usa mucho aún en **scripts de compatibilidad** porque está presente en casi todos los sistemas Unix/Linux.
+- No tiene autocompletado avanzado ni personalización.  
+    ✅ Ventaja: máxima portabilidad.  
+    ❌ Desventaja: muy limitada para el uso interactivo.
+#### **2. bash (Bourne Again Shell)**
 
-# Command History
-dsfas
-# Probando comandos basicos
-safdsafdsa
-# Terminando una sesion de shell
-dsafdsafdsa
+-  **La más común en Linux** (de hecho, suele ser la shell por defecto en la mayoría de distribuciones).
+- Extiende a `sh` con muchas mejoras:
+    - Historial de comandos (`↑ ↓`).
+    - Autocompletado básico.
+    - Variables y arrays más avanzados.
+    - Scripts más potentes y fáciles de escribir.
+- Compatible con `sh`, así que puede ejecutar la mayoría de scripts antiguos.  
+    ✅ Ventaja: equilibrada, estándar en Linux.  
+    ❌ Desventaja: menos personalizable que `zsh` y menos interactiva que `fish`.
+
+#### **3. zsh (Z Shell)**
+
+-  Más moderna que `bash`, con **alto nivel de personalización**.
+- Muy popular en usuarios avanzados y en macOS (desde Catalina es la shell por defecto).
+- Funciones destacadas:
+    - **Autocompletado avanzado** (te sugiere comandos, opciones y rutas).
+    - **Corrección automática** de errores tipográficos (`grpe` → `grep`).
+    - **Temas y plugins** fáciles de instalar (ej. _oh-my-zsh_).
+- Ideal para quien usa mucho la terminal y quiere eficiencia + estilo.  
+    ✅ Ventaja: potente y personalizable.  
+    ❌ Desventaja: necesita configuración para sacarle el máximo provecho.
+
+####  **4. fish (Friendly Interactive Shell)**
+
+- Diseñada para ser **amigable desde el inicio**.
+- No intenta ser 100% compatible con `sh` o `bash`, sino **más interactiva**.
+- Funciones destacadas:
+    - **Autocompletado inteligente** basado en historial y documentación.
+    - **Coloreado automático** de comandos y sintaxis.
+    - Configuración más simple, con un **panel web** para gestionar ajustes.
+- Ideal para usuarios que no quieren complicarse con configuraciones.  
+    ✅ Ventaja: usable y moderno "out of the box".  
+    ❌ Desventaja: menos portable para scripting, ya que no es totalmente compatible con bash/sh.
+
+#### Como saber que tipo de shell tengo yo?
+`echo $SHELL`
+`echo $0`
+`cat /etc/shells`
+# Haciendo tu primer Keystrokes y comandos basicos
+
+el prompt shell $(user) #(root o su)
+
+ `date`
+ `pwd`
+ `ls`
+ `cd`
+ `cat`
+ `mkdir`
+ `cal`
+
+#### Command History
+El historial de comandos de linux y se usa con las flechas arriba y abajo
+#### Terminando una sesion de shell
+exit
 
 
  
