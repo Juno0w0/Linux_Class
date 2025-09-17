@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1- Que es la shell? (clase 1).md",
+                "file": "3- Explorando el sistema (Clase 3).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1- Que es la shell? (clase 1)"
+              "title": "3- Explorando el sistema (Clase 3)"
             }
           }
         ],
@@ -93,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "270a709abe491dea",
@@ -186,6 +187,8 @@
   },
   "active": "ee38e076890d1048",
   "lastOpenFiles": [
+    "2- Navegacion (Clase 2).md",
+    "3- Explorando el sistema (Clase 3).md",
     "PROYECTO \"MICONDOMINIO.COM\".md",
     "1- Que es la shell? (clase 1).md",
     "34- EXOTICA (Clase 34 ).md",
@@ -210,8 +213,6 @@
     "11- Configurar el enviroment (Clase 11).md",
     "10- Procesos (Clase 10).md",
     "9- Permisos (Clase 9).md",
-    "8- Trucos avanzados de teclado (Clase 8).md",
-    "7- El mundo de la shell (Clase 7).md",
     "Untitled"
   ]
 }

@@ -126,7 +126,7 @@ el prompt shell $(user) #(root o su)
 #### Command History
 El historial de comandos de linux y se usa con las flechas arriba y abajo
 #### Terminando una sesion de shell
-exit
+`exit`
 
 
  
