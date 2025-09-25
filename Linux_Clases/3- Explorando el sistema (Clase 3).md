@@ -50,10 +50,68 @@ El comando `file` se basa en esto: revisa una base de datos de _magic numbers_ p
 En linux como ya mencionamos, muchas veces los archivos no tienen extension o pueden ser sustituidas sus extensiones, por lo cual es util asegurarnos del contenido de un archivo o que tipo de archivo es. Esto lo podemos hacer con `file`
 `file [file name]`
 
-Porque es util esto? Por que Linux no toma en cuenta 
+```bash
+file [opcciones] archivo.txt
 
+file -i imagen.png
+```
+Ejemplo:
+```bash
+usuario@kali❯ file /etc/passwd
+/etc/passwd: ASCII text
 
-# Ver el contenido de un archivo desde terminal 
+usuario@kali❯ file sin-extension
+sin-extension: PDF document, version 1.7, 1 page(s)
+```
+### -i muestra su myme type
+## 🔹 Ejemplos comunes
+
+- **Archivos de texto**
+    
+    - `text/plain` → un `.txt`
+        
+    - `text/html` → una página web `.html`
+        
+    - `text/css` → hoja de estilos CSS
+        
+- **Archivos de imagen**
+    
+    - `image/png` → imagen PNG
+        
+    - `image/jpeg` → imagen JPG
+        
+    - `image/gif` → imagen GIF
+        
+- **Archivos de aplicación/binarios**
+    
+    - `application/pdf` → documento PDF
+        
+    - `application/zip` → archivo comprimido ZIP
+        
+    - `application/json` → datos JSON
+**En la Web** → cuando un servidor envía un archivo, también envía su MIME type para que el navegador sepa qué hacer con él.  
+Ejemplo:
+
+- `Content-Type: text/html` → el navegador lo interpreta como página web.
+    
+- `Content-Type: application/pdf` → el navegador abre un visor de PDF.
+# El comando `find`
+
+##  ¿Qué hace?
+
+Sirve para **buscar archivos y directorios** en el sistema de archivos según criterios como nombre, tipo, tamaño, permisos, usuario, etc.
+
+A diferencia de `ls` (que solo lista), `find` **recorre recursivamente** los directorios.z
+```bash
+find [ruta] [condiciones] [acciones]
+```
+
+    ruta → dónde buscar (. para la carpeta actual, / para todo el sistema).
+
+    condiciones → filtros (nombre, tamaño, usuario…).
+
+    acciones → qué hacer con lo que encuentre (mostrar, borrar, ejecutar algo).
+# Ver el contenido de un archivo con less 
 
 # Entendiendo las carpetas del sistema linux, su jerarquia e impacto en el sistema
 dasffdsa

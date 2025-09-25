@@ -1,5 +1,5 @@
 
-#  🐧  Introducción a Linux y primeros pasos en la terminal 🐧
+#  🐧  Introducción a Linux y primeros pasos en la terminal 🐧 [[2- Navegacion (Clase 2)]]
 
 ### - **1969** → Nace UNIX (en AT&T Bell Labs).
 
